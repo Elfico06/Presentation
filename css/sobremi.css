@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&family=Roboto:wght@300&display=swap');
+:root{
+    --background:linear-gradient(135deg, #667eea7e 0%, #d1c2db98 100% );
+ }
+
+ body{
+    height: 100vh;
+    background-image:  var(--background), url(../assets/ima1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  fieldset{
+border-radius: 4px;
+border-color: rgb(153, 149, 149);
+font-size: x-large;
+font-weight: 900;
+position: relative;
+  }
+
+  li{
+      font-size: large;
+      color: black;
+      font-weight: 600;  
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+  }
+
+  .foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 6px;
+  }
+  h2{
+      margin-left: 6px;
+  }
