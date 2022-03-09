@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&family=Roboto:wght@300&display=swap');
+:root{
+    --background:linear-gradient(135deg, #667eea7e 0%, #764ba298 100% );
+ }
+ body{
+    height: 100vh;
+    background-image:  var(--background), url(../assets/ima1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
