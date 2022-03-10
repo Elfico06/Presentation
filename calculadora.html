@@ -15,17 +15,42 @@
 	<title>Calculadora de Indice de Masa Corporal</title>
 </head>
 <body>
+    <header class="hero">
+    <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="nav__items navitems--cta">Presentacion</a>
+          <a href="contactame.html" class="nav__items navitems--cta">Contactame</a>
+          <a href="Sobremi.html" class="nav__items navitems--cta">CV</a>
+          <a href="Proyecto.html" class="nav__items navitems--cta">Proyectos</a>
+        </nav>
+    </header>
+    <div class="cuerpo">
 <h1>Calculadora de IMC: Indice de Masa Corporal</h1>
 
 <!-- FORMULARIO HTML -->
-<div class="calculadora">
+
 <p>Ingrese peso (kg): <input type="number" id="kg"></p>
 <p>Ingrese Altura (m): <input type="number" id="m"></p>
 <button id="calc">Calcular</button>
 <p>IMC: <span id="imc"></span></p>
 <p>Lectura: <span id="lectura"></span></p>
-</div>
 
+<main>
+    <li>
+    Si el IMC es menor a 18.5 quiere decir que el peso es inferior al normal
+   </li>
+    <li>
+        Si el IMC es mayor que 18.5  y menor a 24.0 quiere decir que el peso es normal
+    </li>
+    <li>
+        Si el IMC es mayor que 25  y menor a 29.9 quiere decir que el peso superior al normal
+    </li>
+    <li>
+        Si el IMC es mayor que 30 quiere decir que hay obesidad.
+    </li>
+</main>
+</div>
+</body>
 
 <!-- SCRIPT PARA CALCULAR IMC -->
 <script type="text/javascript">
@@ -52,19 +77,4 @@
 
 	};
 </script>
-</body>
-<main>
-    <li>
-    Si el IMC es menor a 18.5 quiere decir que el peso es inferior al normal
-   </li>
-    <li>
-        Si el IMC es mayor que 18.5  y menor a 24.0 quiere decir que el peso es normal
-    </li>
-    <li>
-        Si el IMC es mayor que 25  y menor a 29.9 quiere decir que el peso superior al normal
-    </li>
-    <li>
-        Si el IMC es mayor que 30 quiere decir que hay obesidad.
-    </li>
-</main>
 </html>
