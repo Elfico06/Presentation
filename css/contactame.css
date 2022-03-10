@@ -8,20 +8,20 @@
     margin-right: 20px;
     padding: 10px 15px;
     font-weight: 5px;
-    font-size: small;
+    font-size: x-large;
     background-color: transparent;
     margin: auto;
     width: 600px;
-    margin-top: 20%;
+    margin-top: 5%;
     padding: 1em;
     border: 1px solid #fff;
-    border-radius: 1em;
-    height: 100%;
+    border-radius: 1rem;
+    height: 50%;
     text-shadow: #999;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
     
 }
 ul {
@@ -53,9 +53,9 @@ ul {
     /* Tamaño uniforme del campo de texto */
     width: 300px;
     box-sizing: border-box;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
     /* Hacer coincidir los bordes del campo del formulario */
-    border: 2px solid #999;
+    border: 1px solid #999;
   }
   
   input:focus,
@@ -68,7 +68,7 @@ ul {
   textarea {
     /* Alinear los campos de texto multilínea con sus etiquetas */
     vertical-align: top;
-    border-radius: 1rem;
+    /*border-radius: 1rem;
    
     /* Proporcionar espacio para escribir texto */
     height: 8rem;
@@ -99,3 +99,38 @@ ul {
     background-position: center;
     position: relative;
   }
+  .mensajerror {
+    color: red;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .nav__items
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.container 
+ {
+    width: 90%;
+    margin: 0 auto;
+   max-width: 1800%;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}

@@ -2,6 +2,7 @@
 :root{
     --background:linear-gradient(135deg, #667eea7e 0%, #764ba298 100% );
  }
+
  body{
     height: 100vh;
     background-image:  var(--background), url(../assets/ima1.jpg);
@@ -11,3 +12,57 @@
     background-position: center;
     position: relative;
   }
+  .btproyec{
+    color:#667eea;
+    background: #fff ;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 80px;
+    display: inline-block;
+    margin: 5%;
+    margin-top: 5%;
+  }
+
+  h1{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .hero__wave
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+.nav__items
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.container 
+ {
+    width: 90%;
+    margin: 0 auto;
+   max-width: 1800%;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}

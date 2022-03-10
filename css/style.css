@@ -67,6 +67,7 @@ body {
     font-weight: inherit;
     font-size: larger;
     border: 1px solid white;
+    border-radius: 5px;
 }
 
 
