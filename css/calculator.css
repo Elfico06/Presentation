@@ -13,19 +13,22 @@
      background-position: center;
      position: relative;
      }
- 
 
+    
+    table td {
+      
+    }
+    
 
- table {
+table {
     width: 60%;
-    height: 300px;
+ font-size: x-large;
     margin: 20%;
 margin-top: 10%;
-
-
   }
   button {
-
+  
+    height: 60px;
     width: 100%;
     border-radius: 10px;
     background-color: rgb(189, 186, 186);
@@ -37,7 +40,11 @@ margin-top: 10%;
 
  .visor
  {
-     height: 50px;
+     height: 80px;
+     font-size: xx-large;
+    background-color: rgb(102, 131, 131);
+    
+     
 
  }
   .nav__items
