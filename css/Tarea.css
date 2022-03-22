@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&family=Roboto:wght@300&display=swap');
+:root{
+    --background:linear-gradient(135deg, #667eea7e 0%, #764ba298 100% );
+ }
+
+body{
+    height: 100vh;
+    background-image:  var(--background), url(../assets/ima9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: content-box;
+    }
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+    
+}
+
+.principal {
+    background-image:  var(--background), url(../assets/ima9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+	border-top: 20px;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+    margin-top: 40px;
+    
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #fff;
+	color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 2px solid rgb(78, 33, 116);
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+.nav__items
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.container 
+ {
+    width: 90%;
+    margin: 0 auto;
+   max-width: 1800%;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
