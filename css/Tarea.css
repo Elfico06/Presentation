@@ -7,7 +7,7 @@
 
 body{
     height: 100vh;
-    background-image:  var(--background), url(assets/ima9.jpg);
+    background-image:  var(--background), url(../assets/ima9.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,7 +30,7 @@ body{
     
 }
 
-.principal {
+//*.principal {
     background-image:  var(--background), url(../assets/ima9.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body{
 	color: #fff;
 	padding: 50px 0;
 	width: 100%;
-}
+}*//
 
 .principal .formulario {
 	color: #212121;
