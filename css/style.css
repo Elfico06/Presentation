@@ -6,13 +6,22 @@
     --color-secondary: #764ba2;
     --boton-padding:20px 40px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.bodyy{
+    display: block;
+    scroll-behavior: smooth;
+    
+}
 body {
+    
     font-family: 'Raleway', sans-serif;
 }
 
 .container 
  {
+    
     width: 90%;
     margin: 0 auto;
    max-width: 1800%;
@@ -30,6 +39,7 @@ body {
 .hero
 {
     height: 100vh;
+    
     background-image: var(--background), url(../assets/ima1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,14 +50,19 @@ body {
 
 .hero.container
 {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0;
 }
 
 .nav
 {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
     justify-content: flex-end;
-    height: 70px;
+    height: auto;
     align-items: center;
     font-weight: 700;
 }
@@ -82,7 +97,7 @@ body {
 }
 
 .hero__texts{
-    width: 80%;
+    width: 50%;
     margin-bottom: 30px;
     font-size: large;
 }
@@ -100,6 +115,8 @@ body {
 
 .hero__wave
 {
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -126,6 +143,9 @@ body {
 /*about*/
 
 .presentation{
+    
+    justify-items: center;
+    width: 100%;
     padding-top: 0;
     text-align: center;
     font-size: larger;

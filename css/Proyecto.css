@@ -31,6 +31,9 @@
   }
   .hero__wave
 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -61,8 +64,15 @@
 .nav
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     height: 70px;
     align-items: center;
     font-weight: 700;
+}
+
+.prog{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

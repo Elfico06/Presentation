@@ -15,10 +15,6 @@
      }
 
     
-    table td {
-      
-    }
-    
 
 table {
     width: 60%;
@@ -71,6 +67,7 @@ margin-top: 10%;
  .nav
  {
      display: flex;
+     flex-wrap: wrap;
      justify-content: flex-end;
      height: 70px;
      align-items: center;
@@ -81,4 +78,10 @@ margin-top: 10%;
      margin-left: 20%;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: larger;
+ }
+
+ table{
+    display: flex;
+    justify-content: center;
+    
  }

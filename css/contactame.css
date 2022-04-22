@@ -129,8 +129,14 @@ ul {
 .nav
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     height: 70px;
     align-items: center;
     font-weight: 700;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
 }

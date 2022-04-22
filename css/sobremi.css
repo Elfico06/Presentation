@@ -65,6 +65,7 @@ position: relative;
 .nav
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     height: 70px;
     align-items: center;
