@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&family=Roboto:wght@300&display=swap');
+:root{
+    --background:linear-gradient(135deg, #1a203a7e 0%, #603c8598 100% );
+ }
+
+ body{
+    height: 100vh;
+    background-image:  var(--background), url(../assets/ima11.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .btproyec{
+    color:#667eea;
+    background: #fff ;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 80px;
+    display: inline-block;
+    margin: 5%;
+    margin-top: 5%;
+  }
+
+  h1{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .hero__wave
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+.nav__items
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.container 
+ {
+    width: 90%;
+    margin: 0 auto;
+   max-width: 1800%;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+#contenedor {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1%;
+    margin-top: 10%;
+}
+
+#caja1, #caja2, #caja3 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#caja1 {
+    background-color: rgba(0,0,0,0.767);
+    color:azure;    
+}
+#caja2 {
+    background-color: rgba(62, 48, 48, 0.767);
+    color:azure;    
+}
+#caja3 {
+    background-color: rgba(107, 79, 53, 0.767);
+    color:azure;    
+}
