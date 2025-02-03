@@ -15,6 +15,16 @@
 <body>
     <title>Tetris</title>
     <footer class="hero">
+        <div class="controls">
+            <div class="row">
+                <button onclick="s.rotate()">⟳</button>
+            </div>
+            <div class="row">
+                <button onclick="s.hMove(-1)">←</button>
+                <button onclick="s.vMove()">↓</button>
+                <button onclick="s.hMove(1)">→</button>
+            </div>
+        </div>
         <div class="container">
            <nav class="nav">
              <a href="index.html" class="nav__items navitems--cta">Presentacion</a>
