@@ -760,7 +760,7 @@
   window.onload = function() {
     init();
     animate();
-  };
+  }
 
 // ###################################################################
 // Initialization functions
