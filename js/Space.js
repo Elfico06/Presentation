@@ -760,41 +760,6 @@
   window.onload = function() {
     init();
     animate();
-  }
+  };
 
-// ###################################################################
-// Initialization functions
-//
-// ###################################################################
-function initCanvas() {
-  // create our canvas and context
-  canvas = document.getElementById('game-canvas');
-  ctx = canvas.getContext('2d');
 
-  // turn off image smoothing
-  setImageSmoothing(false);
-
-  // create our main sprite sheet img
-  spriteSheetImg = new Image();
-  spriteSheetImg.src = SPRITE_SHEET_SRC;
-  preDrawImages();
-
-  // add event listeners and initially resize
-  window.addEventListener('resize', resize);
-  document.addEventListener('keydown', onKeyDown);
-  document.addEventListener('keyup', onKeyUp);
-
-  // Add touch event listeners
-  canvas.addEventListener('touchstart', onTouchStart, false);
-  canvas.addEventListener('touchmove', onTouchMove, false);
-  canvas.addEventListener('touchend', onTouchEnd, false);
-}
-
-// ###################################################################
-// Start game!
-//
-// ###################################################################
-window.onload = function() {
-  init();
-  animate();
-};
